@@ -1,0 +1,14 @@
+
+XVR SDK v1.2.6
+修改记录：
+1.增加本地扫码添加功能；tuya_ipc_set_region(REGION_CN)和IPC_APP_get_qrcode_info();
+2.增加子设备升级进度上报；tuya_ipc_upgrade_progress_report
+3.修改子设备bind接口，增加tp和uddd参数，tuya_ipc_sub_dev_bind_4_CVI(tp, uddd, NVR_SUB_DEV_NUM, IPC_APP_SUB_DEV_PID, IPC_APP_SUB_DEV_VERSION);
+4.支持云存储功能，推荐使用tuya_ipc_sub_dev_bind_4_CVI绑定子设备
+
+============================================
+XVR SDK v1.2.4
+1.批量绑定子设备接口增加最大路数16限制；
+2.子设备清晰度切换cb开放；
+3.增加子设备上下线demo；
+4.支持云存储+echoshow+chromecast增值服务；
