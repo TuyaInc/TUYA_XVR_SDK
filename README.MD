@@ -3,6 +3,19 @@
 涂鸦NVR/DVR SDK
 
 # Release Note
+
+### XVR SDK v1.4.6
+* 修复子设备上报skill不一致
+* [MAX_MEDIA_FRAME_SIZE]放大到500K
+### XVR SDK v1.4.2
+* 支持三方增值服务，需要调用tuya_ipc_upload_skills(NVR_SUB_DEV_NUM);
+* 扫码配网region设置调整到sdk初始化前调用
+### XVR SDK v1.4.0
+* 增加早期nodeId开通增值服务兼容
+* p2p库更新
+### XVR SDK v1.3.7
+* 云存储增加2s预录
+* 支持三方增值服务（echoshow+chromecast）TUYA_APP_Enable_EchoShow_Chromecast
 ### XVR SDK v1.3.4
 * 移除设备删除子设备管理配置
 * 放开音视频开关p2p回调
