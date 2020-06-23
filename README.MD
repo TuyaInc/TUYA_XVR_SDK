@@ -4,6 +4,10 @@
 
 # Release Note
 
+### XVR SDK v1.4.9（debug版本）
+* 云存储增加事件处理回调注册接口tuya_ipc_sub_cloud_register_event_cb
+* 云存储增加设置默认上传视频清晰度api
+* 云存储修改加密接口回调接口和demo
 ### XVR SDK v1.4.6
 * 修复子设备上报skill不一致
 * [MAX_MEDIA_FRAME_SIZE]放大到500K
